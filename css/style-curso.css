@@ -1,0 +1,305 @@
+.curso{
+  margin-top: 2%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  color: #0A5902;
+}
+
+header img{
+  margin: 0 auto;
+}
+
+.curso h1{
+  font-family: Roboto, Helvetica, sans-serif;
+  font-size: 1.2em;
+}
+.curso h2{
+  margin-top: 2%;
+  display: flex;
+  font-family: Roboto, Helvetica, sans-serif;
+  font-size: 1em;
+}
+.estru-curso .estru-curso1{
+  color: #0A5902;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 2%;
+}
+.bloco_info{
+  display: flex;
+  flex-direction: column;
+}
+
+.bloco_info{
+  width: 60%;
+}
+.info-prof h1:after{
+  content: "";
+	display: block;
+	width: 50px;
+	height: 2px;
+	background: #0A5902;
+	margin-top: 10px;
+}
+
+article .localizacao{
+  margin-top: 2%;
+  background-color: #0A5902;
+}
+
+article .localizacao h1{
+  font-family: Roboto, Helvetica, sans-serif;
+  font-size: 0.8em;
+  color: #fff;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.local_curso{
+  position: relative;
+  padding-bottom: 40%; // This is the aspect ratio
+  height: 0;
+  overflow: hidden;
+}
+.local_curso iframe{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100% !important;
+  height: 350px !important;
+}
+
+.estru-curso h1{
+  margin-top: 3%;
+  margin-left: 2%;
+  margin-bottom: 3%;
+  font-family: Roboto, Helvetica, sans-serif;
+  font-size: 1.2em;
+}
+.estru-curso h2{
+  margin-left: 2%;
+  font-family: Roboto, Helvetica, sans-serif;
+  font-size: 1em;
+}
+.estru-curso h3{
+  margin-top: 3%;
+  margin-left: 2%;
+  font-family: Roboto, Helvetica, sans-serif;
+  font-weight: 500;
+  font-size: 1em;
+}
+.estru-curso strong{
+  font-weight: 800;
+}
+
+.estru-curso img{
+  display: flex;
+  width: 300px;
+  height: 300px;
+}
+
+.inscricao-curso{
+  font-family: Roboto, Helvetica, sans-serif;
+  font-size: 0.8em;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 2%;
+  width: 100%;
+  background: #fff;
+}
+.inscricao-curso .container h1{
+  color: #0A5902;
+}
+.inscricao-curso  h1::after{
+  content: "";
+	display: block;
+	width: 50px;
+	height: 2px;
+	background: #0A5902;
+	margin: 0 auto;
+	margin-top: 10px;
+}
+.valores-info{
+  display: flex;
+  justify-content: space-between;
+}
+.valores-info h2{
+  color: #0A5902;
+  font-family: Roboto, Helvetica, sans-serif;
+  font-size: 1.2em;
+  padding-bottom: 5%;
+}
+.valores-info h3{
+  color: #0A5902;
+  font-family: Roboto, Helvetica, sans-serif;
+  font-size: 1.2em;
+  padding-bottom: 5%;
+}
+.bloco-ins{
+  width: 20%;
+  height: 120px;
+}
+.bloco-ins button{
+  font-size: 1.2em;
+  color: #0A5902;
+  border: 2px solid #0A5902;
+  background: none;
+  text-decoration: none;
+  height: 40px;
+  width: 100%;
+  transition: all 0.3s ease;
+}
+.bloco-ins button:hover{
+	color: #fff;
+  box-shadow: inset 0 0 0 25px #11FF4A;
+}
+
+.inscricao-curso h1{
+  padding: 2%;
+  color: #fff;
+}
+.curso-home{
+  font-family: Roboto, Helvetica, sans-serif;
+  background:
+}
+
+/*curso-Home*/
+
+.curso-home{
+  font-family: Roboto, Helvetica, sans-serif;
+  align-items: center;
+  width: 100%;
+  background: #0A5902;
+}
+.curso-home .container .bloco_info_curso{
+  display: flex;
+  justify-content: center;
+}
+.curso-home h1{
+  margin-top: 2%;
+  font-family: Raleway, Helvetica, sans-serif;
+  text-align: center;
+  font-weight: 800;
+  color: #fff;
+  font-size: 2em;
+}
+.curso-home h1::after{
+  content: "";
+	display: block;
+	width: 50px;
+	height: 2px;
+	background: #fff;
+	margin: 0 auto;
+	margin-top: 10px;
+}
+.cursos-info-home{
+  margin-top: 2%;
+  width: 40%;
+}
+
+.cursos-info-home h1{
+  color: #fff;
+  font-size: 1em;
+}
+.cursos-info-home h2{
+  margin-top: 2%;
+  margin-bottom: 4%;
+  text-align: center;
+  color: #fff;
+  font-size: 0.8em;
+}
+.cursos-info-home button{
+  background: none;
+  border: 2px solid #fff;
+	color: #fff;
+	text-decoration: none;
+	text-align: center;
+	font-size: 1.125em;
+	font-weight: 800;
+	display: block;
+	width: 180px;
+	padding: 10px 0;
+	margin: 0 auto;
+	margin-bottom: 4%;
+	font-family: Raleway, Helvetica, sans-serif;
+  transition: all 0.3s ease;
+}
+.cursos-info-home button:hover{
+  border: 2px solid #fff;
+	color: #fff;
+  box-shadow: inset 0 0 0 25px #11FF4A;
+}
+@media only screen and (min-width: 768px) and (max-width: 959px){
+    .bloco_info_curso{
+      display: flex;
+      flex-direction: column;
+    }
+    .cursos-info-home{
+      width: 100%;
+    }
+
+}
+@media only screen and (max-width: 767px){
+  .bloco_info_curso{
+    display: flex;
+    flex-direction: column;
+  }
+  .cursos-info-home{
+    width: 100%;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 959px){
+
+
+}
+@media only screen and (max-width: 767px){
+  .valores-info{
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+  }
+  .bloco-ins{
+    margin-top: 8%;
+    width: 100%;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 959px){
+  .local_curso{
+    padding-bottom: 50%;
+  }
+
+}
+@media only screen and (max-width: 767px){
+  .local_curso{
+    padding-bottom: 125%;
+  }
+  .local_curso iframe{
+    height: 100px;
+  }
+  article .localizacao h1{
+    margin-top: 8%;
+    margin-bottom: 8%;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 959px){
+
+
+}
+@media only screen and (max-width: 767px){
+  .estru-curso1{
+    justify-content: center;
+  }
+  .bloco_info{
+    text-align: center;
+    width: 100%;
+  }
+
+  .info-prof h1:after{
+    margin: 0 auto;
+    margin-top: 10px;
+  }
+  .curso{
+    text-align: center;
+  }
+}

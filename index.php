@@ -1,0 +1,256 @@
+<!doctype html>
+<html>
+
+<head>
+	<title>ABB - Associação Baiana de Biomedicina</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="initial-scale=1.0">
+	<meta name="description" content="Associação baiana de biomedicina, aqui vocês encontrará mais informações a respeito dela."/>
+	<meta property="og:type" content="website" />
+	<meta property="og:title" content="Associação Baiana de Biomedicina" />
+	<meta property="og:url" content="http://www.abbiomedicina.com.br" />
+	<meta property="og:image" content="http://www.abbiomedicina.com.br/img/og-image.jpg" />
+	<link href="css/reset.css" rel="stylesheet" type="text/css">
+	<link href="css/normalize.css" rel="stylesheet" type="text/css">
+	<link href="css/grid.css" rel="stylesheet" type="text/css">
+	<link href="css/style.css" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" href="animate.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+	<link rel="stylesheet" href="responsive-nav.css">
+	<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
+	<script src="responsive-nav.js"></script>
+</head>
+
+<body>
+	<section class="antes_header" id="page-top">
+		<div class="container">
+			<video autoplay muted controls loop class="bg_video">
+					<source src="img/Microscope_5__Scientist__Videvo.webm" type="video/webm">
+					<source src="img/Microscope_5__Scientist__Videvo.mp4" type="video/mp4">
+			</video>
+			<div class="container_header">
+				<a class="logo-header animated pulse" href="index.html"><img id="logo-header" src="img/log.png" alt="Asssociação Baiana de Biomedicina"></a>
+				<h2 class="animated bounceInUp">Seja bem vindo</h2>
+				<h1 class="animated bounceInUp"> ASSOCIAÇÃO BAIANA DE BIOMEDICINA</h1>
+				<blockquote class="quote animated bounceInUp">
+					<p>"O mundo não poderá tomar um novo caminho se não conseguir uma união íntima da técnica e da moral."
+					</p>
+					<cite>Theodor Plievier</cite>
+				</blockquote>
+			</div>
+		</div>
+	</section>
+	<header id="menuHeader" class="navbar header" role="navigation">
+		<div class="container">
+			<div class="header_menu"id="menuHeader">
+				<a href="#page-top" class="nav-collapse logo grid-4"><img src="img/logo-header.png" alt="Logo da associação baiana de biomedicina"></a>
+				<nav class="grid-12" role="navigation">
+					<ul>
+						<li><a href="#page-top" class="subNavBtn">Inicio</a></li>
+						<li><a href="#quemsomos" class="subNavBtn">Quem somos</a></li>
+						<li><a href="#vantagens" class="subNavBtn">Vantagens</a></li>
+						<li><a href="#associa" class="subNavBtn">Associa-se</a></li>
+						<li><a href="#estatuto" class="subNavBtn">Estatuto</a></li>
+						<li><a href="#contato" class="subNavBtn">Contato</a></li>
+					</ul>
+				</nav>
+			</div>
+		</div>
+	</header>
+	<div class="container_quem_somos" id="quemsomos">
+		<h1>Quem somos</h1>
+	</div>
+	<section class=" fundadores">
+		<div class="container">
+			<div class="fundadores_bloco grid-5">
+				<img class="fundadores_img" src="img/img_fundadores_tayla.png" alt="Tayla Silva">
+				<h1>Tayla Silva</h1>
+				<h2>Secretária Geral</h2>
+				<h3>Biomédica Esteta e Perfusionista - CRBM 5730</h3>
+				<a class="btn_redes_fundadores" target="_blank" href="https://www.facebook.com/drataylasilvasantos"><img src="img/icon_face_branco.png" alt="Facebook"></a>
+				<a class="btn_redes_fundadores" target="_blank" href="https://www.instagram.com/drataylasilvasantos/"><img src="img/Icon_contato_insta_branco.png" alt="Instagram"></a>
+			</div>
+			<div class="fundadores_bloco grid-5">
+				<img src="img/img_fundadores.png" class="fundadores_img" alt="Carlos Danilo">
+				<h1>Carlos Danilo</h1>
+				<h2>Presidente</h2>
+				<h3>Biomédico Imaginologia e Analista Clínico - CRBM 4010</h3>
+				<a class="btn_redes_fundadores" target="_blank" href="https://www.facebook.com/profile.php?id=100009383441303"><img src="img/icon_face_branco.png" alt="Facebook"></a>
+				<a class="btn_redes_fundadores" target="_blank" href="https://www.instagram.com/gemeos_da_biomedicina/"><img src="img/Icon_contato_insta_branco.png" alt="Instagram"></a>
+			</div>
+			<div class="fundadores_bloco grid-5">
+				<img src="img/img_fundadores_isac.png" class="fundadores_img" alt="Isaac Ribeiro">
+				<h1>Isaac Ribeiro</h1>
+				<h2>Vice-Presidente</h2>
+				<h3>Biomédico Citopatologista e Analista Clínico - CRBM 5652</h3>
+				<a class="btn_redes_fundadores" target="_blank" href="https://www.facebook.com/isaac.ribeiro.927"><img src="img/icon_face_branco.png" alt="Facebook"></a>
+				<a class="btn_redes_fundadores" target="_blank" href=""><img src="img/Icon_contato_insta_branco.png" alt="Instagram"></a>
+			</div>
+			
+			<div class="fundadores_bloco grid-5">
+				<img src="img/img_fundadores_marcus.png" class="fundadores_img" alt="Marcus Vinicius">
+				<h1>Marcus Vinícius</h1>
+				<h2>Diretor Científico</h2>
+				<h3>Biomédico Geneticista e Biologia Molecular</h3>
+				<a class="btn_redes_fundadores" target="_blank" href="https://www.facebook.com/marcusvinicius.cardoso.1"><img src="img/icon_face_branco.png" alt="Facebook" ></a>
+				<a class="btn_redes_fundadores" target="_blank" href="https://www.instagram.com/gemeos_da_biomedicina/"><img src="img/Icon_contato_insta_branco.png" alt="Instagram"></a>
+			</div>
+			<div class="fundadores_bloco grid-5">
+				<h1>Fundadores</h1>
+			</div>
+			<div class="fundadores_bloco grid-5">
+				<img src="img/img_fundadores_imariana.png" class="fundadores_img" alt="Mariana Ribeiro">
+				<h1>Mariana Ribeiro</h1>
+				<h2>Diretora de patrimônio e finanças</h2>
+				<h3>Biomédica Saúde Pública e Banco de Leite - CRBM 1457</h3>
+				<a class="btn_redes_fundadores" target="_blank" href="https://www.facebook.com/profile.php?id=100004398850372&pnref=friends.search"><img src="img/icon_face_branco.png" alt="Facebook"></a>
+			</div>
+		</div>
+	</section>
+	<section class="paragrafo">
+		<div class="container">
+			<div class="quem_somos_paragrafo grid-10">
+			<p>A Associação Baiana de Biomedicina (ABB) começou com a vivência e a participação de colegas Biomédicos em Congressos Regionais, bem como as experiências em reuniões de classe.  Atualmente, luta para se tornar referência na representação dos Biomédicos na Bahia. Com sede provisória em Feira de Santana, onde são realizadas atividades administrativas, culturais científicas e de confraternização profissional, a ABB possui todas as condições para o desenvolvimento de suas atividade.<p/>
+			<p> ABB, possui características científicas, culturais e sociais e vale ressaltar que é constituída por Biomédicos de diferentes áreas de atuação, juntamente com acadêmicos de Biomedicina que podem contribuir muito com o futuro da Biomedicina. Temos por finalidade reciclar e especializar os Biomédicos e assim contribuir para a seu aprimoramento científico, cultural e ético.</p>
+			</div>
+		<div class="img grid-6">
+			<img src="img/img_paragrafo_quem_somos.jpg">
+		</div>
+		</div>
+	</section>
+	<section class="vantagens" id="vantagens">
+		<div class="container">
+			<h1 id="title">Vantagens</h1>
+			<div class="icon_cantagens grid-3">
+				<img src="img/icon_carteirinha.png">
+				<h1>Carteirinha</h1>
+				<h2>de estudante ou de associado</h2>
+			</div>
+		
+			<div class="icon_cantagens grid-3">
+				<img src="img/icon_desconto%20em%20curso.png">
+				<h1>Desconto</h1>
+				<h2>em cursos de extensão feitos por empresas parceiras</h2>
+			</div>
+			<div class="icon_cantagens grid-3">
+				<img src="img/icon_cursos.png">
+				<h1>Cursos exclusivos</h1>
+				<h2>Para associados</h2>
+		</div>
+			<div class="icon_cantagens grid-3">
+				<img src="img/icon_desconto_inscria.png">
+				<h1>Desconto na inscrição</h1>
+				<h2>de congressos organizados pela ABB e parceiros</h2>
+			</div>
+			<div class="icon_cantagens grid-3">
+				<img src="img/icon_posgradua.png">
+				<h1>Pós-graduação</h1>
+				<h2>em Biomedicina na Área de Análises Clínicas ou Saúde Pública com 10% de desconto nas mensalidades</h2>
+			</div>
+	</div>
+	</section>
+	<section class="associa" id="associa">
+		<div class="container container_valores">
+			<h1>Associa-se</h1>
+			<div class="valores grid-4">
+				<h2>Acadêmicos</h2>
+				<h3>R$ 40,00</h3>
+                <h5>(Anual)</h5>
+                <a target="_blank" class="estatuto-btn"  href="https://goo.gl/forms/aeDv01BFeZqKzMLm1">Associar</a>
+			</div>
+			<div class="valores grid-4">
+				<h2>Pós-graduando</h2>
+				<h3>R$ 60,00</h3>
+                <h5>(Anual)</h5>
+                <a target="_blank" class="estatuto-btn"  href="https://goo.gl/forms/xPUXoFvcD3zM4Mcs1">Associar</a>
+			</div>
+			<div class="valores grid-4">
+				<h2>Profissionais Biomédicos</h2>
+				<h3>R$ 90,00</h3>
+                <h5>(Anual)</h5>
+                <a target="_blank" class="estatuto-btn" href="https://goo.gl/forms/RWZNRXUDWvaCHLZq2">Associar</a>
+			</div>
+		</div>
+	</section>
+	<section class="estatuto" id="estatuto">
+		<div class="container">
+			<h1>Estatuto</h1>
+			<div class="conteudo">
+				<p>Faça o download o estatuto a Associação Baiana de Biomédicina, lá você encontrará informações mais detalhadas sobre a Associação.</p>
+				<a target="_blank" href="https://drive.google.com/open?id=0B5ERM3qB1rK1TG5Ya084c0d5czQ" class="estatuto-btn">Download</a>
+			</div>
+		</div>
+	</section>
+	<footer>
+	<div class="footer" id="contato">
+		<div class="container">
+			<h1>Contato</h1>
+			<h3 id="texto_contato">Entre em contato com nossa equipe e ajude-nos a fazer um bom trabalho para a comunidade <strong>Baiana de Biomedicina</strong></h3>
+			<div class="bloco_contato info grid-5">
+				<h2><strong></strong>Informações</h2>
+				<ul>
+					<li id="endereco"><h4><strong>Telefones:</strong></h4></li>
+					<li><h4><strong>Carlos Danilo:</strong> (75) 9146-8143</h4></li>
+					<li><h4><strong>Tayla Silva:</strong> (75)  8148-3740</h4></li>
+					<li><h4><strong>Marcus Vinicíus:</strong> (75) 99282-8846</h4></li>
+					<li id="endereco">
+						<h4><strong>Endereço:</strong></h4>
+					</li>
+					<li><h4>Av. João Durval, 1840, Empresarial, Santana, sala 103 <br> <strong>Feira de Santana -BA</strong> </h4></li>
+				</ul>
+			</div>
+			<div class="bloco_contato  contato grid-5">
+				<h2>Mande uma mensagem</h2>
+				<form action="mail_send.php" method="post" name="form" class="formphp contato_mensagem">
+					<label for="nome">Nome:</label>
+					<input id="nome" name="nome" type="text">
+					<label for="email">E-mail:</label>
+					<input id="email" name="email" type="text">
+					<label for="telefone">Telefone</label>
+					<input id="telefone" name="telefone" type="text">
+
+					<label class="nao-aparece">Se você não é um robô, deixe em branco.</label>
+					<input type="text" class="nao-aparece" name="leaveblank">
+					<label class="nao-aparece">Se você não é um robô, não mude este campo.</label>
+					<input type="text" class="nao-aparece" name="dontchange" value="http://" >
+
+					<label for="mensagem">Mensagem</label>
+					<textarea name="mensagem" id="mensagem"></textarea>
+
+					<button id="enviar" name="enviar" type="submit">Enviar</button>
+				</form>
+			</div>
+			<div class="bloco_contato contato grid-5">
+				<h2>Siga-nos</h2>
+				<ul>
+					<li><a target="_blank" href="https://www.facebook.com/Associação-Baiana-de-Biomedicina-201194467056363/"> <img src="img/icon_contato_face.png"></a></li>
+					<li><a target="_blank" href="https://www.instagram.com/abb.biomedicina/"> <img src="img/Icon_contato_insta.png"></a></li>
+				</ul>
+			</div>
+		</div>
+		</div>
+	</footer>
+	<div class="direitos_autorais">
+			<div class="container">
+				<h3> Todos os direitos reservados - Iuri Matos</h3>
+				<a target="_blank" href="https://www.facebook.com/iurimatosdesigner/"><img src="img/log_iuri_matos.png"></a>
+			</div>
+	</div>
+	<!-- JavaScript -->
+	<script src="js/libs/jquery-3.2.1.min.js"></script>
+	<script src="js/plugins.js"></script>
+	<script src="js/main.js"></script>
+	<!-- JavaScript -->
+    <script>
+          (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+          (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+          })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+          ga('create', 'UA-99257668-1', 'auto');
+          ga('send', 'pageview');
+
+    </script>
+</body>
+
+</html>

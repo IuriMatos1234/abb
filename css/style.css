@@ -1,0 +1,744 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:500,800|Roboto:300,300i,400');
+
+/*Responsivo*/
+
+@media only screen and (min-width: 768px) and (max-width: 959px){
+    body{
+        margin: 0 auto;
+        padding: 0px;
+    }
+
+}
+@media only screen and (max-width: 767px){
+	body{
+		margin: 0 auto;
+        padding: 0px;
+	}
+}
+
+
+/* Estios gerais*/
+
+body, h1, h2, h3, p, ul {
+	padding: 0px;
+	margin: 0px;
+}
+* {
+	box-sizing: border-box;
+}
+img {
+	max-width: 100%;
+	display: block;
+}
+
+/* Antes do header*/
+
+.container_header{
+	width: 100%;
+	height: 100%;
+}
+
+
+.bg_video{
+	position: fixed;
+	right: 0;
+	bottom: 0;
+	min-width: 100%;
+	min-height:	100%;
+	width: auto;
+	height: auto;
+	z-index: -1000;
+	background: url(../img/bg.png) no-repeat;
+	background-color: cover;
+}
+.antes_header{
+	width: 100%;
+	height: 750px;
+	background: rgba(14,96,18,0.7);
+
+}
+.container_header{
+	margin-top: 180px;
+}
+#logo-header{
+	display: block;
+    margin: auto;
+}
+
+.antes_header h2{
+	font-family: Raleway, Helvetica, sans-serif;
+	font-size: 1.8em;
+	text-align: center;
+	color: #fff;
+	font-weight: 500;
+	padding: 30px 10px 10px 0px;
+}
+.antes_header h1{
+	font-family: Raleway, Helvetica, sans-serif;
+	font-size: 1.8em;
+	text-align: center;
+	color: #fff;
+	font-weight: 800;
+	text-transform: uppercase;
+}
+.antes_header h1:after{
+	content: "";
+	display: block;
+	width: 50px;
+	height: 2px;
+	background: #fff;
+	margin: 0 auto;
+	margin-top: 5px;
+}
+.antes_header blockquote{
+	margin: 0 auto;
+	max-width: 380px;
+	font-family: Raleway, Helvetica, sans-serif;
+	font-size: 0.9em;
+	text-align: center;
+	color: #fff;
+	font-weight: 300;
+}
+.antes_header blockquote p{
+	font-family: Raleway, Helvetica, sans-serif;
+	font-weight: 300;
+	padding: 10px;
+}
+.antes_header blockquote cite{
+	text-align: center;
+	color: #fff;
+	font-weight: 300i;
+	font-size: 1.2em;
+}
+.antes_header blockquote cite:before{
+	content: "";
+	display: block;
+	width: 50px;
+	height: 2px;
+	background: #fff;
+	margin: 0 auto;
+	margin-bottom: 10px;
+}
+
+
+/* Header */
+.header{
+	position: relative;
+	top: 0;
+	width: 100%;
+	padding: 10px 0;
+	background: #fff;
+}
+.header_menu{
+	text-align: right;
+}
+.header_menu ul li{
+	display: inline-block;
+	margin-left: 20px;
+	margin-top: 10px;
+}
+.header_menu ul li a{
+	color: #0A5902;
+	font-family: Roboto, Helvetica, sans-serif;
+	font-size: 1em;
+	padding: 10px 0;
+	text-transform: uppercase;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 959px){
+    .header img{
+
+    }
+    .header_menu ul li{
+      margin-left: 5px;
+	   margin-top: 10px;
+    }
+    .header_menu{
+	   text-align: right;
+    }
+    .header_menu ul li a{
+       font-size: 0.9em;
+       padding: 5px 5px;
+       text-transform: uppercase;
+    }
+
+}
+@media only screen and (max-width: 767px){
+	.header img{
+        margin: 0 auto;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        width: 90px;
+    }
+    .header_menu ul li{
+        margin-left: 5px;
+	   margin-top: 10px;
+    }
+    .header_menu{
+        text-align: center;
+    }
+    .header_menu ul li a{
+       font-size: 0.9em;
+       padding: 5px 5px;
+       text-transform: uppercase;
+    }
+}
+
+.header_menu ul li a:hover{
+	color: #11FF4A;
+}
+
+.container_quem_somos{
+	padding: 5px;
+	font-size: 1em;
+	color: #0A5902;
+	padding: 15px;
+	background: #fff;
+}
+.container_quem_somos h1{
+	font-family: Raleway, Helvetica, sans-serif;
+	font-weight: 800;
+	text-align: center;
+}
+.container_quem_somos h1:after{
+	content: "";
+	display: block;
+	width: 50px;
+	height: 2px;
+	background: #0A5902;
+	margin: 0 auto;
+	margin-top: 10px;
+}
+
+
+
+/*Bloco fundadores*/
+
+.fundadores{
+	width: 100%;
+	height: 100%;
+	background: #0A5902;
+	padding: 10px 0;
+}
+.fundadores_bloco{
+	margin: 20px;
+	color:	#fff;
+	padding: 10px 0;
+	font-family: Raleway, Helvetica, sans-serif;
+	font-size: 1.em;
+	text-align: center;
+}
+.fundadores_bloco h1{
+	font-weight: 800;
+	padding-bottom: 10px;
+}
+.fundadores_bloco h1:after{
+	content: "";
+	display: block;
+	width: 30px;
+	height: 2px;
+	background: #fff;
+	margin: 0 auto;
+}
+.fundadores_bloco h2{
+	font-weight: 800;
+	font-size: 1.em;
+	padding-bottom: 10px;
+}
+
+.fundadores_bloco h3{
+	position: relative;
+	padding-bottom: 10px;
+	margin: 0 auto;
+	max-width: 200px;
+	font-weight: 500;
+	font-size: 0.8em;
+}
+.fundadores_bloco img{
+	display: inline-block;
+}
+
+
+.paragrafo{
+	padding: 20px 0;
+	background: #fff;
+}
+.quem_somos_paragrafo p{
+	max-width: 600px;
+	text-align: justify;
+	padding-top: 10px;
+	padding-left: 20px;
+	color: #1b1717;
+	font-family: Roboto, Helvetica, sans-serif;
+	font-size: 1em;
+	font-weight: 300;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 959px){
+    .fundadores_bloco{
+        margin: 0 auto;
+        padding: 0px;
+        margin-top: 20px;
+        margin-left: 28px;
+    }
+    .fundadores_bloco h1{
+        font-size: 1.5em;
+        padding-bottom: 4px;
+    }
+    .fundadores_bloco h2{
+        font-size: 0.8em;
+        padding-bottom: 4px;
+    }.fundadores_bloco h3{
+        font-size: 0.6em;
+        padding-bottom: 4px;
+    }
+    .fundadores_img{
+        width: 60%;
+    }
+
+}
+@media only screen and (max-width: 767px){
+	.fundadores_bloco{
+		margin: 0 auto;
+        padding: 0px;
+        padding-top: 20px;
+        padding-bottom: 10px;
+	}
+    .fundadores_bloco{
+        margin: 0 auto;
+        padding: 20px;
+        margin-top: 20px;
+    }
+    .fundadores_bloco h1{
+        font-size: 1.5em;
+        padding-bottom: 4px;
+    }
+    .fundadores_bloco h2{
+        font-size: 0.8em;
+        padding-bottom: 4px;
+    }.fundadores_bloco h3{
+        font-size: 0.6em;
+        padding-bottom: 4px;
+    }
+    .fundadores_img{
+        width: 60%;
+    }
+}
+
+
+/*Vanatagens*/
+
+.vantagens{
+	width: 100%;
+	height: 100%;
+	background-color: #0A5902;
+	padding: 10px 0;
+}
+.icon_cantagens{
+	margin: 15px;
+	color:	#fff;
+	font-family: Raleway, Helvetica, sans-serif;
+	font-size: 1.em;
+	text-align: center;
+}
+.vantagens h1{
+	color:	#fff;
+	padding: 5px;
+	font-family: Raleway, Helvetica, sans-serif;
+	font-size: 2em;
+	text-align: center;
+	font-weight: 800;
+}
+.vantagens img{
+	display: inline-block;
+}
+.vantagens h1:after{
+	content: "";
+	display: block;
+	width: 50px;
+	height: 2px;
+	background: #fff;
+	margin: 0 auto;
+	margin-top: 10px;
+}
+
+.icon_cantagens h1{
+	color:	#fff;
+	padding: 5px;
+	font-family: Raleway, Helvetica, sans-serif;
+	font-size: 1.3em;
+	text-align: center;
+	font-weight: 800;
+}
+.icon_cantagens h1:after{
+	content: "";
+	display: block;
+	width: 30px;
+	height: 2px;
+	background: #fff;
+	margin: 5px auto;
+}
+.icon_cantagens h2{
+	padding: 15px;
+	color:	#fff;
+	font-family: Raleway, Helvetica, sans-serif;
+	font-size: 0.8em;
+	text-align: center;
+	font-weight: 500;
+	margin-top: -15px;
+}
+@media only screen and (min-width: 768px) and (max-width: 959px){
+    .icon_cantagens{
+        margin: 0 auto;
+        padding: 0px;
+        margin-top: 20px;
+        margin-left: 48px;
+    }
+   .icon_cantagens h1{
+        font-size: 1.2em;
+        padding-bottom: 4px;
+    }
+    .icon_cantagens h2{
+        font-size: 0.8em;
+        padding-bottom: 4px;
+    }
+    .icon_cantagens h3{
+        font-size: 0.6em;
+        padding-bottom: 0px;
+    }
+    .icon_cantagens{
+        width: 40%;
+        padding-bottom: 10px;
+    }
+
+}
+@media only screen and (max-width: 767px){
+	.icon_cantagens{
+		margin: 0 auto;
+        padding: 0px;
+        padding-bottom: 20px;
+	}
+    #title{
+        padding-top: 10px;
+        padding-bottom: 20px;
+    }
+    .fundadores_bloco h1{
+        font-size: 1.5em;
+        padding-bottom: 4px;
+    }
+    .fundadores_bloco h2{
+        font-size: 0.em;
+        padding-bottom: 4px;
+    }.fundadores_bloco h3{
+        font-size: 0.6em;
+        padding-bottom: 4px;
+    }
+    .fundadores_img{
+        width: 60%;
+    }
+}
+
+.associa{
+	height: 100%;
+	width: 100%;
+	background-color: #fff;
+	padding: 0px 0;
+
+}
+.valores{
+	width: 299px;
+	background: #0A5902;
+}
+
+.container_valores h1{
+	color:	#0A5902;
+	padding: 20px;
+	font-family: Raleway, Helvetica, sans-serif;
+	font-size: 2em;
+	text-align: center;
+	font-weight: 800;
+}
+.container_valores h1:after{
+	content: "";
+	display: block;
+	width: 50px;
+	height: 2px;
+	background: #0A5902;
+	margin: 0 auto;
+	margin-top: 10px;
+}
+.valores{
+	padding: 15px;
+	margin-bottom: 20px;
+}
+.container_valores h2{
+	color:	#fff;
+	padding: 5px;
+	font-family: Raleway, Helvetica, sans-serif;
+	font-size: 1.3em;
+	text-align: center;
+	font-weight: 800;
+}
+.container_valores h2:after{
+	content: "";
+	display: block;
+	width: 50px;
+	height: 2px;
+	background: #fff;
+	margin: 0 auto;
+	margin-top: 10px;
+}
+.container_valores h3{
+	color:	#fff;
+	padding: 5px;
+  padding-bottom: 0px;
+	font-family: Roboto, Helvetica, sans-serif;
+	font-size: 1.2em;
+	text-align: center;
+	font-weight: 800;
+}
+.container_valores h5{
+    color:	#fff;
+	padding: 5px;
+    padding-bottom: 10px;
+	font-family: Roboto, Helvetica, sans-serif;
+	font-size: 0.7em;
+	text-align: center;
+}
+@media only screen and (min-width: 768px) and (max-width: 959px){
+    .valores{
+        width: 235px;
+        padding: 15px;
+	   margin-bottom: 20px;
+    }
+    .container_valores h2{
+        font-size: 1.2em;
+    }
+    .valores h3{
+        font-size: 1em;
+    }
+}
+@media only screen and (max-width: 767px){
+
+}
+
+
+/*Estatuto*/
+
+
+
+.footer{
+	padding: 20px;
+	height: 100%;
+	width: 100%;
+	background: #fff;
+}
+.footer h1{
+	color:	#0A5902;
+	padding: 10px;
+	font-family: Raleway, Helvetica, sans-serif;
+	font-size: 2em;
+	text-align: center;
+	font-weight: 800;
+}
+.footer h1:after{
+	content: "";
+	display: block;
+	width: 50px;
+	height: 2px;
+	background: #0A5902;
+	margin: 0 auto;
+	margin-top: 10px;
+}
+.footer h2{
+	color:	#0A5902;
+	font-family: Raleway, Helvetica, sans-serif;
+	font-size: 1.2em;
+	text-align: center;
+	font-weight: 500;
+}
+.footer h2:after{
+	content: "";
+	display: block;
+	width: 300px;
+	height: 1px;
+	background: #0A5902;
+	margin: 0 auto;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.footer h3{
+	color:	#0A5902;
+	padding: 10px;
+	font-family: Raleway, Helvetica, sans-serif;
+	font-size:0.8em;
+	text-align:left center;
+	font-weight: 500;
+}
+.footer h4{
+	color:	#0A5902;
+	padding-top: 6px;
+	padding-bottom: 6px;
+	font-family: Raleway, Helvetica, sans-serif;
+	font-size: 0.9em;
+	text-align:left center;
+	font-weight: 500;
+}
+#texto_contato{
+	text-align: center;
+	font-size: 1em;
+	padding-bottom: 20px;
+}
+strong{
+	font-weight: 800;
+	font-size: 1.2em;
+}
+.bloco_contato{
+	width: 300px;
+}
+#endereco{
+	padding-top: 5px;
+}
+#endereco:after{
+	content: "";
+	display: block;
+	width: 50px;
+	height: 1px;
+	background: #0A5902;
+	margin-top: 5px;
+	margin-bottom: 10px;
+}
+.bloco_contato ul li{
+	display: block;
+}
+.bloco_contato ul li a{
+	float: left;
+	margin-top: 20px;
+	margin-left: 60px;
+	text-align: center;
+	align-content: center;
+	border: 3px solid #0A5902;
+	display: block;
+}
+.bloco_contato ul li a:hover{
+	border: 3px solid #11FF4A;
+	color: #11FF4A;
+}
+
+form label{
+	display: block;
+	color: #0A5902;
+	font-family: Raleway, Helvetica, sans-serif;
+	font-weight: 500;
+	margin-bottom: 4px;
+}
+
+form input{
+	display: block;
+	width: 100%;
+	height: 40px;
+	border: 2px solid #0A5902;
+	padding: 5px 10px;
+	margin-bottom: 15px;
+	outline: none;
+	font-size: 0.9em;
+	color: #0A5902;
+	font-family: Raleway, Helvetica, sans-serif;
+}
+
+form textarea{
+	display: block;
+	width: 100%;
+	height: 120px;
+	border: 2px solid #0A5902;
+	padding: 5px 10px;
+	margin-bottom: 15px;
+	outline: none;
+	font-size: 0.9em;
+	color: #0A5902;
+	font-family: Raleway, Helvetica, sans-serif;
+}
+form button{
+	font-family: Raleway, Helvetica, sans-serif;
+	border: 2px solid #0A5902;
+	color: #0A5902;
+	text-decoration: none;
+	font-size: 1.125em;
+	font-weight: 800;
+	display: block;
+	width: 120px;
+	padding: 5px 5px;
+	background: none;
+}
+form button:hover{
+	border: 2px solid #11FF4A;
+	color: #11FF4A;
+}
+
+.direitos_autorais{
+	padding: 10px;
+	width: 100%;
+	height: 100%;
+	background: #0A5902;
+}
+.direitos_autorais h3{
+	color: #fff;
+	padding: 10px;
+	font-family: Raleway, Helvetica, sans-serif;
+	font-size:0.9em;
+	text-align:left center;
+	font-weight: 500;
+	text-align: center;
+}
+.direitos_autorais img{
+	margin: 0 auto;
+	padding: 5px;
+}
+.direitos_autorais img:hover{
+	width: 40px;
+	height: 30px;
+}
+
+
+.formphp label.nao-aparece, .formphp input.nao-aparece {
+	display: none !important;
+}
+
+#form-erro span, #form-send span  {
+	font-size: 18px;
+	line-height: 25px;
+	margin-bottom: 10px;
+	display: block;
+}
+
+#form-send {
+	color: #31aa39;
+}
+
+#form-erro {
+	color: #f64540;
+}
+.contato h3{
+	text-align: center;
+}
+.associa-btn{
+	border: 2px solid #fff;
+	color: #fff;
+	text-decoration: none;
+	text-align: center;
+	font-size: 1.125em;
+	font-weight: 800;
+	display: block;
+	width: 180px;
+	padding: 10px 0;
+	margin: 0 auto;
+	margin-bottom: 10px;
+	font-family: Raleway, Helvetica, sans-serif;
+  transition: all 0.3s ease;
+
+}
+.associa-btn:hover{
+	border: 2px solid #fff;
+	color: #fff;
+    box-shadow: inset 0 0 0 25px #11FF4A;
+}
